@@ -67,7 +67,7 @@ nav ul li a:hover {
 
 /* Início principal
 --------------------------------------------------*/
-#conteudo {
+ #conteudo {
     float: left;
     width: 710px;
     background-color: green;
@@ -77,4 +77,46 @@ nav ul li a:hover {
     float: right;
     width: 350px;
     background-color: #ebe7dd;
+}
+
+#visita {
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+h4 {
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+/* Formulários
+------------------------------------------------- */
+input {
+    height: 20px;
+    background-color: #fff;
+    border: none;
+    font-size: 1em;
+}
+
+input.campo {
+    border: 1px solid #ada484;
+}
+
+input.botao {
+    color: #fff;
+    background: #3f3c2edc;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    display: none;
 }

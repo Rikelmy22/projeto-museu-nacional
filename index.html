@@ -37,22 +37,31 @@
                 </section>
             </div><!-- /Fim conteúdo -->
 
-            <aside id="lateral"><!-- Início do lateral -->
+            <aside id="lateral"><!-- Início lateral -->
                 <section id="depoimento">
                     <img src="imagens/depoimento.png" alt="depoimento">
                 </section>
                    
-                <section id="visita">
+                <section id="visita"><!-- Início sessão visita -->
                     <h4>Faça uma visita:</h4>
                     <form action="destinatatario.php" method="post" autocomplete="off">
                         <fieldset>
                             <legend>Selecione uma data</legend>
-                            <label for="idata">
-                                <input type="text" name="text" id="idata" value="dd/mm/aa">
+                            <label for="idata">Data:
+                                <input class="campo" type="text" name="text" id="idata" value="dd/mm/aa" required style="width: 80px;">
+                            </label>
+
+                            <label for="iqtd">Qtd de pessoas:
+                                <input class="campo" type="text" name="text" id="iqtd" value="1" required minlength="2" width="10px" style="width: 30px;" >
                             </label>
                         </fieldset>
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
                     </form>
-                </section>
+                </section><!--/Fim sessão visita-->
+                <section id="galeria"><!-- Início sessão galeria -->
+                    <h4>Galeria de fotos</h4>
+                    <a href=""></a>
+                </section><!--Fim sessão galeria-->
             </aside><!-- /Fim lateral -->
         </main><!-- /Fim principal-->
     </div><!-- /Fim container -->
