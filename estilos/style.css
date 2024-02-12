@@ -183,5 +183,9 @@ legend {
 /* Rodapé
 ---------------------------------------------------------- */
 #rodape {
+    clear: both;
+    text-align: center;
+    background: url(../imagens/fundo-rodape.png) center top no-repeat;
     padding: 20px 0px 20px 0px;
+    margin-top: 20px;
 }
